@@ -1,0 +1,291 @@
+/* Navbar */
+.navbar {
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black !important;
+    z-index: 3;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00FFFF !important;
+}
+
+/*General Style*/
+.text-black {
+    color: black;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Section Hero*/
+.hero {
+    background-image: url(imagenes/imgbackground.jpg);
+    background-size: cover;
+    min-height: 450px;
+    height: 915px;
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: aliceblue;
+}
+.Mereles {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: #00FFFF
+}
+
+/*About Me*/
+.about {
+    height: auto;
+    padding: 3rem;
+}
+
+.about-skills {
+    padding-top: 1.8rem;
+}
+.about .about-principal {
+    padding-top: 1.8rem;
+    max-width: 600px;
+    max-height: 600px;
+}
+.title-about {
+    text-align: start;
+    margin-bottom: 45px;
+}
+
+.p-about {
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.img-resize {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 30px;
+}
+
+/* Projects */
+.recent-projects {
+    padding: 3rem;
+}
+
+.container-titprojects {
+    padding-top: 1.8rem;
+}
+
+.projects {
+    position: relative;
+}
+
+.projects img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.container-projects {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.overlay .icon-projects {
+    display: flex;
+    justify-content: center;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.projects:hover img {
+    opacity: 0.2;
+}
+
+.projects:hover .overlay {
+    opacity: 1;
+
+}
+
+/* Contact */
+.contact {
+    background-color: black;
+}
+
+.contact .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contact .rectangle {
+    margin-top: -5rem;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: aliceblue;
+}
+
+.contact .row {
+    width: 100%;
+    display: flex;
+}
+
+.contact .title-contact {
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+.contact .description-contact {
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+.contact button {
+    color: aliceblue;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    padding: 1.25em 2em;
+    margin: auto;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact button:hover {
+    background-color: #363636;
+}
+.contact button i {
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    min-height: 500px;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-icon a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.footer-icon i {
+    color: aliceblue;
+    transition: all 0.2s ease-in;
+    font-size: 1.5rem;
+}
+
+.footer-icon a:hover {
+    background-color: white;
+    border: 2px solid #363636;
+}
+
+.footer-icon a:hover i {
+    color: black;
+}
+
+.copyright-text {
+    font-size: 15px;
+    color: #aeaeae;
+    margin-top: 50px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 767px){
+    .navbar-brand {
+        display: none;
+    }
+}
